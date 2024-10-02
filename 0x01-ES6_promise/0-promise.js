@@ -4,7 +4,7 @@ function getResponseFromAPI() {
       const success = true;
       if (success) resolve('success');
       else {
-        reject('failure');
+        reject(new Error('failure'));
       }
     }, 2000);
   });
