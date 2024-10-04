@@ -1,9 +1,10 @@
 export function taskFirst() {
-  const firstStr = "I prefer const when I can.";
+  const firstStr = 'I prefer const when I can.';
   return firstStr;
 }
 
 export function taskNext() {
-  let secStr = "But sometimes let is okay";
+  let secStr = 'let is okay';
+  secStr = `But sometimes ${secStr}`;
   return secStr;
 }
